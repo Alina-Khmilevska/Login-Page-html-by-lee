@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Smooch+Sans:wght@400;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body main {
+  display: flex;
+  justify-content: space-between;
+}
+body main .login-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #1C1C1C;
+}
+body main .login-section__title h1 {
+  font-family: Smooch Sans;
+  font-size: 120px;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1;
+}
+body main .login-section__title h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+body main .login-section__form {
+  margin-top: 24px;
+}
+body main .login-section__form .form-group {
+  margin-bottom: 24px;
+}
+body main .login-section__form .form-group input {
+  width: 364px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 13px;
+  background: #F2F2F2;
+  border: none;
+}
+body main .login-section__form .form-group input:hover, body main .login-section__form .form-group input:focus {
+  border: 1px solid orange;
+}
+body main .login-section__form .form-group input::placeholder {
+  color: #1C1C1C;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body main .login-section__form .form-group .input-container {
+  position: relative;
+  width: 100%;
+}
+body main .login-section__form .form-group .input-container .icon-prefix {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background: url("img/icons/person.svg") no-repeat;
+  background-size: contain;
+}
+body main .login-section__form button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1C1C1C;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+body main .image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .image-section img {
+  max-width: 100%;
+  height: auto;
+}
